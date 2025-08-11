@@ -1,0 +1,13 @@
+.errorAddHint {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	background-color: #d40000;
+	color: white;
+	right: 0;
+	border-radius: 20px;
+	width: 100%;
+}

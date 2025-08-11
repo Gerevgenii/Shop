@@ -1,0 +1,21 @@
+.app {
+	text-align: center;
+}
+
+:root {
+	--accent-color-hue: 236;
+	--accent-color-saturation: 100%;
+	--disabled-color: #cfcfcf;
+	--error-color: #d40000;
+}
+
+.appHeader {
+	background-color: #282c34;
+	min-height: 100hv;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}

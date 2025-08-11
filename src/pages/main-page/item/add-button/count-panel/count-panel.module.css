@@ -1,0 +1,49 @@
+.countPanel {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 2%;
+	margin-bottom: 5%;
+	height: 100%;
+	width: 90%;
+}
+
+.button {
+	width: 12%;
+	height: 100%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+
+.button:hover {
+	animation: buttonHovering 0.5s ease-in-out;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 84%);
+}
+
+@keyframes buttonHovering {
+	0% {
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			78%
+		);
+	}
+
+	100% {
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			84%
+		);
+	}
+}
+
+.input {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 82%);
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	border-radius: 10px;
+	text-align: center;
+}

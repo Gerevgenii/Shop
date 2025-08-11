@@ -1,0 +1,31 @@
+.hints {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	gap: 4px;
+
+	position: fixed;
+	width: 15vw;
+	right: 0;
+	top: 10vh;
+	background-color: rgb(230, 230, 230);
+
+	padding: 10px 20px;
+	border-radius: 4px 0 0 4px;
+	transform: translateX(100%);
+
+	opacity: 0;
+	transition:
+		transform 0.3s ease,
+		opacity 0.3s ease;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.hints.show {
+	transform: translateX(0);
+	opacity: 1;
+	pointer-events: auto;
+}

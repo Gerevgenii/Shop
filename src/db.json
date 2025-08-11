@@ -1,0 +1,24 @@
+{
+	"1": {
+		"itemID": "1",
+		"name": "Dog",
+		"amount": "20$",
+		"description": "Simple description 1",
+		"tag": "dogs"
+		},
+	"2": {
+		"itemID": "2",
+		"name": "cat",
+		"amount": "10$",
+		"description": "Simple description 2",
+		"tag": "cats"
+		},
+	"7": {
+		"itemID": "13",
+		"name": "Мышка",
+		"amount": "25",
+		"description": "Игровая мышка для компьютера",
+		"tag": "IT"
+		}
+}
+

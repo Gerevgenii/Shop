@@ -1,0 +1,10 @@
+.mainPage {
+	display: flex;
+	width: 93vw;
+	height: 90vh;
+	flex-wrap: wrap;
+	margin: 2%;
+	justify-content: center;
+	align-items: start;
+	gap: 16px;
+}

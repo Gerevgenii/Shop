@@ -1,0 +1,48 @@
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 82%);
+	border-radius: 10px;
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	transition:
+		background-color 0.25s ease,
+		border-radius 0.5s ease-in-out;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	animation: buttonHovering 0.5s ease-in-out;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+	border-radius: 20px;
+}
+
+@keyframes buttonHovering {
+	0% {
+		border-radius: 10px;
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			82%
+		);
+	}
+
+	100% {
+		border-radius: 20px;
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			87%
+		);
+	}
+}
+
+:global .active {
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+	border-radius: 20px;
+}

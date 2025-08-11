@@ -1,0 +1,34 @@
+.addButton {
+	width: 30%;
+
+	height: 100%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+	margin-bottom: 5%;
+}
+
+.addButton:hover {
+	animation: buttonHovering 0.5s ease-in-out;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 84%);
+}
+
+@keyframes buttonHovering {
+	0% {
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			78%
+		);
+	}
+
+	100% {
+		background-color: hsl(
+			var(--accent-color-hue),
+			var(--accent-color-saturation),
+			84%
+		);
+	}
+}

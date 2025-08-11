@@ -1,0 +1,31 @@
+.removeButton {
+	display: flex;
+	align-items: center;
+	width: 12%;
+	height: 100%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+.removeButton:hover {
+	background-color: red;
+}
+
+.doDel {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 12%;
+	height: 100%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
+	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+	border-radius: 10px;
+	cursor: pointer;
+	transition: background-color 0.5s ease;
+}
+
+.doDel:hover {
+	background-color: greenyellow;
+}

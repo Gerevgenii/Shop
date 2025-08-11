@@ -1,0 +1,26 @@
+.shopingBin {
+	display: flex;
+	flex-direction: row;
+	width: 93vw;
+	height: 90vh;
+	justify-content: center;
+}
+
+.binItems {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2%;
+	justify-content: center;
+	align-items: start;
+	gap: 16px;
+}
+
+.emptyBin {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	height: 20%;
+	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
+	border: 2px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+}
