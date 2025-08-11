@@ -1,9 +1,9 @@
 .mainPage {
 	display: flex;
-	width: 93vw;
+	width: 100%;
 	height: 90vh;
 	flex-wrap: wrap;
-	margin: 2%;
+	margin-top: 16px;
 	justify-content: center;
 	align-items: start;
 	gap: 16px;

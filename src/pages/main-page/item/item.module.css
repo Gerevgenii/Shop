@@ -4,16 +4,18 @@
 	justify-content: space-between;
 	width: 300px;
 	height: 300px;
-	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
-	border: 2px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
+	background-color: white;
+	border: 2px solid lightgray;
+	border-radius: 10px;
 	transition:
 		transform 0.5s ease-in-out,
 		box-shadow 0.25s ease-in-out;
+	padding: 16px;
 }
 
 .item:hover {
 	box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.5);
-	transform: translateY(-8px);
+	transform: translateY(-4px);
 }
 
 .mainInfo {
@@ -23,12 +25,9 @@
 	margin: 0 3%;
 }
 
-.mainInfo h2 {
-	font-weight: normal;
-}
-
 .item h3 {
 	margin: 0 3%;
+	font-weight: normal;
 }
 
 .addButton1 {
@@ -39,4 +38,12 @@
 	height: 10%;
 
 	margin-bottom: 8px;
+}
+
+.tag {
+	padding: 4px;
+	width: fit-content;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: lightgray;
 }

@@ -31,7 +31,7 @@ const SignInLayout = ({ email, changeEmail, password, changePassword, onSubmit }
 					</div>
 					<div>
 						<NavLink to={'/registration'} className={styles.linkButton}>
-							Зарегестрироваться
+							Зарегистрироваться
 						</NavLink>
 						<button type="submit" className={styles.button}>
 							Войти

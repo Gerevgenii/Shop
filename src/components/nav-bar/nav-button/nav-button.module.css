@@ -14,17 +14,16 @@
 	cursor: pointer;
 	text-decoration: none;
 	color: black;
+	padding: 0 10px;
 }
 
 .button:hover {
 	animation: buttonHovering 0.5s ease-in-out;
 	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
-	border-radius: 20px;
 }
 
 @keyframes buttonHovering {
 	0% {
-		border-radius: 10px;
 		background-color: hsl(
 			var(--accent-color-hue),
 			var(--accent-color-saturation),
@@ -33,7 +32,6 @@
 	}
 
 	100% {
-		border-radius: 20px;
 		background-color: hsl(
 			var(--accent-color-hue),
 			var(--accent-color-saturation),
@@ -44,5 +42,4 @@
 
 :global .active {
 	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
-	border-radius: 20px;
 }

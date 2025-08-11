@@ -65,7 +65,7 @@ export const CountPanel = ({ itemID, isPossibleToDelete }) => {
 				dispatch(
 					addToHints({
 						type: 'success',
-						text: `Успешно добавился ${Number(val) - itemCount} ${itemName}`,
+						text: `Теперь колличество товара "${itemName}": ${Number(val)} `,
 					}),
 				);
 				setTimeout(() => {

@@ -5,11 +5,13 @@ import { addToHints, removeFromHints } from '../../../redux/shop-reducer';
 
 const TotalPriseLayout = ({ totalPrise, onClick }) => {
 	return (
-		<div className={styles.totalPrise}>
-			<h3>Общая стоимость: {totalPrise}$</h3>
-			<button className={styles.button} onClick={onClick}>
-				Оплатить
-			</button>
+		<div className={styles.block}>
+			<div className={styles.totalPrise}>
+				<h3>Общая стоимость: {totalPrise}$</h3>
+				<button className={styles.button} onClick={onClick}>
+					Оплатить
+				</button>
+			</div>
 		</div>
 	);
 };

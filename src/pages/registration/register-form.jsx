@@ -65,10 +65,13 @@ const RegisterFormLayout = ({ handleSubmit, errors, register, reset, onSubmit })
 							type="submit"
 							className={styles.button}
 							disabled={
-								errors.email || errors.password || errors.confirmPassword
+								errors.email ||
+								errors.name ||
+								errors.password ||
+								errors.confirmPassword
 							}
 						>
-							Зарегестрироваться
+							Зарегистрироваться
 						</button>
 					</div>
 				</form>

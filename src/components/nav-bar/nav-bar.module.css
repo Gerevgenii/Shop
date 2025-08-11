@@ -2,10 +2,9 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	height: 5vh;
-	margin: 1%;
-	padding: 5px;
-	width: 94vw;
+	height: 6vh;
+	padding: 5px 0;
+	width: 100%;
 
 	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 72%);
 	border-radius: 5px;
@@ -13,19 +12,25 @@
 
 .leftButtons {
 	display: flex;
-	justify-content: space-between;
-	width: 20%;
+	justify-content: left;
+	gap: 16px;
+	width: 50%;
 	height: 100%;
 	align-items: center;
 	margin-left: 1%;
 }
 
+.icon {
+	height: 100%;
+	aspect-ratio: 1/1;
+}
+
 .rightButtons {
 	display: flex;
+	justify-content: end;
 	gap: 16px;
-	width: 17%;
+	width: 50%;
 	height: 100%;
-	align-items: center;
 	margin-right: 1%;
 }
 
@@ -35,6 +40,8 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: x-large;
+	white-space: nowrap;
 }
 
 .navBar .navItem {
@@ -52,6 +59,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: x-large;
 }
 
 .exitButton {
@@ -64,21 +72,19 @@
 	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 82%);
 	border-radius: 10px;
 	border: 1px solid hsl(var(--accent-color-hue), var(--accent-color-saturation), 78%);
-	transition:
-		background-color 0.25s ease,
-		border-radius 0.5s ease-in-out;
+	transition: background-color 0.25s ease;
 	cursor: pointer;
+	font-size: x-large;
+	white-space: nowrap;
 }
 
 .exitButton:hover {
 	animation: buttonHovering 0.5s ease-in-out;
 	background-color: hsl(var(--accent-color-hue), var(--accent-color-saturation), 87%);
-	border-radius: 20px;
 }
 
 @keyframes buttonHovering {
 	0% {
-		border-radius: 10px;
 		background-color: hsl(
 			var(--accent-color-hue),
 			var(--accent-color-saturation),
@@ -87,7 +93,6 @@
 	}
 
 	100% {
-		border-radius: 20px;
 		background-color: hsl(
 			var(--accent-color-hue),
 			var(--accent-color-saturation),
