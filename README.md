@@ -12,10 +12,12 @@
 ## Технологии
 
 - React 18
-- TypeScript
+- JavaScript
 - Redux Toolkit
 - React Router DOM
-- JSON Server (для имитации backend)
+- Farebase
+- Yup
+- React Hook Form
 - Vite
 - CSS Modules
 
@@ -30,37 +32,23 @@ git clone [url-репозитория]
 ```bash
 npm install
 ```
-
-3. Запустите JSON Server (база данных):
-```bash
-npm run server
-```
-
-4. В отдельном терминале запустите приложение:
+4. Запустите приложение:
 ```bash
 npm run dev
+```
+
+5. Опционально. Если хотите запустить для просмотра (preview):
+```bash
+npm run build
+npm run preview
 ```
 
 ## Структура проекта
 
 ```
 src/
-├── components/      # Переиспользуемые компоненты
-├── features/        # Redux слайсы и логика
-├── hooks/          # Кастомные хуки
+├── components/     # Переиспользуемые компоненты
+├── redux/          # Redux слайсы и логика
 ├── pages/          # Компоненты страниц
-├── types/          # TypeScript типы
-└── store.ts        # Конфигурация Redux store
+└── firebase.js     # Конфигурация Firebase
 ```
-
-## Тестовые аккаунты
-
-- Администратор:
-  - Email: admin@test.com
-  - Пароль: admin
-
-## API Endpoints
-
-- `GET /products` - получение списка товаров
-- `GET /users` - получение пользователей
-- `POST /users` - регистрация нового пользователя
