@@ -1,6 +1,12 @@
 # Shop - Магазин различных товаров
 #### Веб-приложение для покупки товаров для домашних животных, разработанное с использованием React, JavaScript, Redux Toolkit, Yup и React Hook Form.
 
+
+
+https://github.com/user-attachments/assets/b6c2d870-6fb2-4397-86e4-c730e4229d34
+
+
+
 ## Функциональность
 
 - Просмотр каталога товаров
