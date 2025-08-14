@@ -1,5 +1,5 @@
 # Shop - Магазин различных товаров
-#### Веб-приложение для покупки различных товаров, разработанное с использованием React, JavaScript, Redux Toolkit, Yup и React Hook Form.
+#### Веб-приложение для покупки различных товаров, разработанное с использованием React, JavaScript, Redux Toolkit, React Router, Yup и React Hook Form.
 
 
 
